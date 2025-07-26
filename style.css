@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FAF7F0;
+    height: 100vh;
 }
 img{
     width: 300px;
@@ -42,7 +43,8 @@ a {
     align-items: center;
     justify-content: space-around;
     margin: 0;
-    padding: 0;
+    padding: 30px;
+    flex-wrap: wrap;
 }
 h2 {
     color: #1B3D60;
@@ -68,4 +70,49 @@ h2 {
 .right img{
     height: auto;
     width: 540px;
+}
+.left, .right {
+    flex: 1 1 400px; 
+    max-width: 400px;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+.info-1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 5px;
+}
+h3 {
+    color: #1B3D60;
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    padding-top: 20px;
+}
+.info-1 img {
+    width: 300px;
+    border: 3px solid #1B3D60;
+    border-radius: 10px;
+}
+h4 {
+    color: #1B3D60;
+    font-size: 20px;
+    margin: 10px;
+}
+.info-1 p{
+    color: #1B3D60;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
