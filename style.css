@@ -6,6 +6,7 @@ body {
     font-family: 'Roboto';
     margin: 0;
     padding: 0;
+    background-color: #FAF7F0;
 }
 img{
     width: 300px;
@@ -15,7 +16,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 40px;
     background-color: #E4664F;
 }
 h1{
@@ -35,4 +36,36 @@ a {
 .nav-links ul{
     display: flex;
     gap: 20px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: #1B3D60;
+    font-size: 40px;
+    margin: 0;
+
+}
+.left{
+    max-width: 400px;
+}
+.left p{
+    color: #1B3D60;
+    font-size: 20px;
+    margin: 12px;
+}
+.left button {
+    background-color: #1B3D60;
+    color: white;
+    padding: 10px 30px;
+    margin: 12px;
+    border-radius: 3px;
+}
+.right img{
+    height: auto;
+    width: 540px;
 }
